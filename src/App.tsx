@@ -1,9 +1,11 @@
+import Page1 from "./components/Page1/Page1";
+import Page2 from "./components/Page2/Page2";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline bg-slate-300 ">
-        Hello world!
-      </h1>
+      <Page1 />
+      <Page2 />
     </>
   );
 }
