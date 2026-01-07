@@ -1,8 +1,11 @@
+import Navbar from "./Navbar";
 
 const Page1 = () => {
   return (
-    <div className='h-screen w-full bg-slate-700'>Page1</div>
-  )
-}
+    <div className="h-screen w-full">
+      <Navbar />
+    </div>
+  );
+};
 
-export default Page1
+export default Page1;
